@@ -1,10 +1,13 @@
 const mysql = require('mysql');
 
+
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'root',
-    database: 'belajar_1'
+    database: 'eduwork_cruds_v2'
 });
+
+
 
 module.exports = connection;
